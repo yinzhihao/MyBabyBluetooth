@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BabyBluetooth.h"
 
 @interface ViewController : UIViewController
 
