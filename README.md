@@ -1,2 +1,3 @@
 # MyBabyBluetooth
 初次使用BabyBluetooth
+学习使用BabyBluetooth链式函数实现蓝牙打印功能

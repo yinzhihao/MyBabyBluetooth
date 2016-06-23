@@ -137,6 +137,7 @@
 				TargetAttributes = {
 					0E249E111D0CF5EA001F8074 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MBB6RBH9JT;
 					};
 				};
 			};
@@ -341,6 +342,7 @@
 			baseConfigurationReference = F728A53AAD40CFCA3A23A8D0 /* Pods-MyBabyBluetooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyBabyBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcsmart.MyBabyBluetooth;
@@ -353,6 +355,7 @@
 			baseConfigurationReference = E4B8767AB0A9FAA4A3E83F86 /* Pods-MyBabyBluetooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyBabyBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcsmart.MyBabyBluetooth;
