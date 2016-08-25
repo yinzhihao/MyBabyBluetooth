@@ -104,7 +104,7 @@
     
     //设置扫描到设备的委托
     [baby setBlockOnDiscoverToPeripherals:^(CBCentralManager *central, CBPeripheral *peripheral, NSDictionary *advertisementData, NSNumber *RSSI) {
-        NSLog(@"搜索到了设备：%@",peripheral.name);
+//        NSLog(@"搜索到了设备：%@",peripheral.name);
         [weakSelf insertTableView:peripheral advertisementData:advertisementData];
     }];
     
@@ -270,7 +270,7 @@
     for (int i = 0; i<strLength; i++) {
         caPrintFmt[6+i] = *(printByte+i);
     }
-    
+        
     data = [NSData dataWithBytes:caPrintFmt length:6+strLength];
     
     [self printLongData:data];
